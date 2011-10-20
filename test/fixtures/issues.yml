@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project_id: 1
+  number: 1
+  subject: MyString
+  milestone_id: 1
+  opener_id: 1
+  assignee_id: 1
+  category_id: 1
+  priority_id: 1
+  status_id: 1
+
+two:
+  project_id: 1
+  number: 1
+  subject: MyString
+  milestone_id: 1
+  opener_id: 1
+  assignee_id: 1
+  category_id: 1
+  priority_id: 1
+  status_id: 1

@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  issue_id: 1
+  description: MyText
+  responder_id: 1
+  opener_id: 1
+  assignee_id: 1
+  category_id: 1
+  priority_id: 1
+  status_id: 1
+
+two:
+  issue_id: 1
+  description: MyText
+  responder_id: 1
+  opener_id: 1
+  assignee_id: 1
+  category_id: 1
+  priority_id: 1
+  status_id: 1

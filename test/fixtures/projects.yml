@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company_id: 1
+  owner_company_id: 1
+  name: MyString
+  active: false
+
+two:
+  company_id: 1
+  owner_company_id: 1
+  name: MyString
+  active: false

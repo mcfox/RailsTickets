@@ -1,0 +1,14 @@
+rails g scaffold
+
+rails g scaffold priority name:string
+rails g scaffold status name:string
+rails g scaffold company name:string address:string city:string state:string country:string time_zone:string postal_code:string web_address:string phone:string
+rails g scaffold category project_id:integer name:string default_assignee_id:integer active:boolean
+rails g scaffold user email:string full_name:string company_id:integer time_zone:string active:boolean admin:boolean email_notifications:boolean
+rails g scaffold project company_id:integer owner_company_id:integer name:string active:boolean
+rails g scaffold milestone project_id:integer name:string description:text  due_date:date
+rails g scaffold issue  project_id:integer  number:integer  subject:string  milestone_id:integer  opener_user_id:integer  assignee_user_id:integer category_id:integer priority_id:integer status_id:integer
+rails g scaffold response  issue_id:integer  description:text  responder_id:integer  opener_id:integer  assignee_id:integer  category_id:integer priority_id:integer status_id:integer
+rails g scaffold project_access  user_id:integer  project_id:integer
+rails g scaffold account company_id:integer admin_user_id:integer subdomain:string trial:boolean active:boolean
+

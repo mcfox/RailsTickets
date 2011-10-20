@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Issue:</b>
+  <%= @response.issue_id %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @response.description %>
+</p>
+
+<p>
+  <b>Responder:</b>
+  <%= @response.responder_id %>
+</p>
+
+<p>
+  <b>Opener:</b>
+  <%= @response.opener_id %>
+</p>
+
+<p>
+  <b>Assignee:</b>
+  <%= @response.assignee_id %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @response.category_id %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @response.priority_id %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @response.status_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_response_path(@response) %> |
+<%= link_to 'Back', responses_path %>

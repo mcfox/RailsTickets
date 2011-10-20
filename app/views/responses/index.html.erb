@@ -1,0 +1,37 @@
+<h1>Listing responses</h1>
+
+<table>
+  <tr>
+    <th>Issue</th>
+    <th>Description</th>
+    <th>Responder</th>
+    <th>Opener</th>
+    <th>Assignee</th>
+    <th>Category</th>
+    <th>Priority</th>
+    <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @responses.each do |response| %>
+  <tr>
+    <td><%= response.issue_id %></td>
+    <td><%= response.description %></td>
+    <td><%= response.responder_user_id %></td>
+    <td><%= response.opener_user_id %></td>
+    <td><%= response.assignee_user_id %></td>
+    <td><%= response.category_id %></td>
+    <td><%= response.priority_id %></td>
+    <td><%= response.status_id %></td>
+    <td><%= link_to 'Show', response %></td>
+    <td><%= link_to 'Edit', edit_response_path(response) %></td>
+    <td><%= link_to 'Destroy', response, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Response', new_response_path %>

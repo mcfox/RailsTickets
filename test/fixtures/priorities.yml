@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+trivial:
+  name: Trivial
+
+low:
+  name: Low
+
+normal:
+  name: Normal
+
+high:
+  name: High
+
+critical:
+  name: Critical

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: psi@mcfox.com.br
+  full_name: PSI
+  company_id: 1
+  time_zone: GMT-03
+  active: false
+  admin: false
+  email_notifications: false
+
+two:
+  email: psi2@mcfox.com.br
+  full_name: psi2
+  company_id: 1
+  time_zone: GMT-03
+  active: false
+  admin: false
+  email_notifications: false

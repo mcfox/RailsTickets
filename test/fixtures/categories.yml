@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project_id: 1
+  name: MyString
+  default_assignee_id: 1
+  active: false
+
+two:
+  project_id: 1
+  name: MyString
+  default_assignee_id: 1
+  active: false

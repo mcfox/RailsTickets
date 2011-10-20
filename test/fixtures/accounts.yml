@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company_id: 1
+  admin_user_id: 1
+  subdomain: MyString
+  trial: false
+  active: false
+
+two:
+  company_id: 1
+  admin_user_id: 1
+  subdomain: MyString
+  trial: false
+  active: false

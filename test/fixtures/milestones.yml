@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project_id: 1
+  name: MyString
+  description: MyText
+  due_date: 2011-08-21
+
+two:
+  project_id: 1
+  name: MyString
+  description: MyText
+  due_date: 2011-08-21
