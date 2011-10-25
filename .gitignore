@@ -5,3 +5,7 @@ tmp/
 .sass-cache/
 .idea/
 
+
+.idea/workspace.xml
+
+.idea/psissues.iml
