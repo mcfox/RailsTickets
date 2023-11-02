@@ -1,8 +1,0 @@
-A ROR simple and objective application to control tickets for a Project company.
-
-Company
-  -- users
-  -- projects
-      -- issues (tickets)
-         -- responses
-      -- milestones
